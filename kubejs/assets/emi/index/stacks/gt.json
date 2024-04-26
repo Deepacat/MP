@@ -1,0 +1,13 @@
+{
+    "filters": [
+        "/^gtceu:(?!.+steam|(bronze|steel).*pipe|lv_muffler|(steam|solid).*casing|bronze_firebox|(steel|bronze)_large_boiler|lv.*(hatch|bus)).+$/",
+        "/gtceu:.*uple/",
+        "/gtceu:.*bucket/",
+        "/gtceu:.*cracked/",
+        "/gtceu:.*turbine/",
+        "/gtceu:.*industrial/",
+        "/gtceu:.*passthrough/",
+        "/gtceu:.*combust/",
+        "/gtceu:.*energy.*hatch/"
+    ]
+}
