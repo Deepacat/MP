@@ -88,3 +88,4 @@ $RECYCLE.BIN/
 .LSOverride
 kubejs/assets/gtceu/textures/item/material_sets/infinity/infinity_plate.xcf
 kubejs/jsconfig.json
+config/embeddium-options.json

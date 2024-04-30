@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	id: "6B3FE4DF8C11F8B7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51F079A06F326169"]
+			icon: "embers:ember_crystal"
+			id: "0C4F9F2AADCB5BF1"
+			tasks: [{
+				id: "79227FACD1661202"
+				type: "checkmark"
+			}]
+			title: "Embers"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64CA0611DD7520CC"]
+			icon: {
+				Count: 1b
+				id: "destroy:molecule_display"
+				tag: { }
+			}
+			id: "57AA03D81C9CE936"
+			tasks: [{
+				id: "4C0445280B33946B"
+				item: {
+					Count: 1b
+					id: "destroy:vat_controller"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0CBF9BA3105FCD4D"
+				"211AE788CE0B958A"
+			]
+			id: "45174457DB528A82"
+			tasks: [{
+				id: "5331A247B452B0DD"
+				item: "wizards_reborn:arcanum"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73785592E1B4380B"]
+			id: "0CBF9BA3105FCD4D"
+			tasks: [{
+				id: "1916E78D2BB8FA3E"
+				item: "eidolon:unholy_symbol"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			icon: "create:cogwheel"
+			id: "51F079A06F326169"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			icon: "forbidden_arcanus:rune"
+			id: "73785592E1B4380B"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0C4F9F2AADCB5BF1"]
+			id: "64CA0611DD7520CC"
+			tasks: [{
+				id: "2B7D759C2C7D4B78"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73785592E1B4380B"]
+			id: "03C5C769A9E55F3D"
+			tasks: [{
+				id: "38238083B42785F8"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"11B56BB5D82D7459"
+				"57AA03D81C9CE936"
+				"45174457DB528A82"
+			]
+			id: "4464389EB2A5ACEA"
+			tasks: [{
+				id: "134E29BB4F1B240A"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64CA0611DD7520CC"]
+			id: "11B56BB5D82D7459"
+			tasks: [{
+				id: "1BF173193DD98B1D"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6CF97C0BA55BC99D"
+				"3D27D3794CD4DF20"
+			]
+			id: "4533170DA9A6AB64"
+			tasks: [{
+				id: "1DDD1FDAFE825AC0"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51F079A06F326169"]
+			id: "2FEE808F51610203"
+			tasks: [{
+				id: "37E77D675D585B72"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"11B56BB5D82D7459"
+				"4464389EB2A5ACEA"
+			]
+			id: "6CF97C0BA55BC99D"
+			tasks: [{
+				id: "4B724A3A79825541"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"51F079A06F326169"
+				"73785592E1B4380B"
+			]
+			id: "1971887CAE0E3B8B"
+			tasks: [{
+				id: "27107C11836E039F"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"45174457DB528A82"
+				"4464389EB2A5ACEA"
+			]
+			id: "3D27D3794CD4DF20"
+			tasks: [{
+				id: "1879672C344F013F"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"57AA03D81C9CE936"
+				"0C4F9F2AADCB5BF1"
+			]
+			id: "62F17836361AE613"
+			tasks: [{
+				id: "07B93F43A59AFB62"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["608CC0CB35192F88"]
+			id: "211AE788CE0B958A"
+			tasks: [{
+				id: "27ED200BAB7634BA"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"03C5C769A9E55F3D"
+				"0CBF9BA3105FCD4D"
+			]
+			id: "608CC0CB35192F88"
+			tasks: [{
+				id: "36E1627B2D9CCC86"
+				item: "sons_of_sins:heart"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	title: "Mod Progression"
+}

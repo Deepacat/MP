@@ -439,7 +439,7 @@
     B:EnigmaticAmuletMultiequip=false
 
     # If true, only original owner of Extradimensional Vessel will be able to pick it up. [default: false, synchronized: yes]
-    B:EnigmaticAmuletOwnerOnlyVessel=false
+    B:EnigmaticAmuletOwnerOnlyVessel=true
 
     # What fraction of player's experience should be stored in Extradimensional Vessel upon their death. Experience that is not stored will be lost forever. 1.0 means that all experience is saved. [range: 0.0 ~ 1.0, default: 1.0, synchronized: yes]
     D:EnigmaticAmuletSavedXPFraction=1.0
@@ -448,7 +448,7 @@
     B:EnigmaticAmuletSeededColorGen=false
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletVesselEnabled=true
+    B:EnigmaticAmuletVesselEnabled=false
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
     I:EnigmaticItemCooldown=3

@@ -1,3 +1,4 @@
+// priority: 1
 // the ungreggening
 GTCEuServerEvents.oreVeins(event => {
     event.removeAll()

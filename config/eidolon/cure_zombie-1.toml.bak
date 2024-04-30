@@ -3,7 +3,7 @@
 delay = 10
 #The cost of casting this spell
 #Range: > 0
-cost = 0
+cost = 20
 #Cooldown for this prayer spell
 #Range: > 21000
 cooldown = 0
