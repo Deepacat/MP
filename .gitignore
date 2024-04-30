@@ -89,3 +89,5 @@ $RECYCLE.BIN/
 kubejs/assets/gtceu/textures/item/material_sets/infinity/infinity_plate.xcf
 kubejs/jsconfig.json
 config/embeddium-options.json
+config/everycomp-common.toml
+config/everycomp-hazardous.properties

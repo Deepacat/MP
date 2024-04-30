@@ -101,6 +101,10 @@
     {
       "item_id_regex": "sword|blade",
       "weapon_attributes": "bettercombat:sword"
+    },
+    {
+      "item_id_regex": "athame",
+      "weapon_attributes": "bettercombat:dagger"
     }
   ],
   "ranged_weapons": [
